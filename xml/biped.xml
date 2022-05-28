@@ -1,0 +1,50 @@
+<mujoco>
+
+	<visual>
+			<headlight ambient="0.25 0.25 0.25"/>
+	</visual>
+
+	<option timestep="0.001" integrator="RK4" gravity="0 0 0">
+		<flag sensornoise="disable" contact="enable" energy="enable"/>
+	</option>
+
+	<worldbody>
+		<geom type="plane" size="50 5 0.1" rgba=".9 0 0 1"/>
+
+		<body name="leg1" pos="0 0 0.75" euler="0 0 0">
+			<joint name="x" type="slide" pos="0 0 0.5" axis = "1 0 0" />
+			<joint name="z" type="slide" pos="0 0 0.5" axis = "0 0 1" />
+			<joint name="pin" type="hinge" pos="0 0 0.5" axis="0 -1 0" />
+			<geom type="cylinder" size=".05 .5" rgba="0 .9 0 1" mass="1"/>
+
+			<body name="foot1" pos="0 0 -0.75">
+				<joint name="knee1" type="slide" pos="0 0 0.25" axis = "0 0 -1" />
+				<geom type="sphere" size=".05" rgba=".9 .9 0 1" mass="0.1"/>
+			</body>
+
+			<body name="leg2" pos="0 0.25 0" euler="0 0 0">
+				<joint name="hip" type="hinge" pos="0 0 0.5" axis = "0 -1 0" />
+				<geom type="cylinder" size=".05 .5" rgba=".9 .9 .9 1" mass="1"/>
+
+				<body name="foot2" pos="0 0 -0.75">
+					<joint name="knee2" type="slide" pos="0 0 0.25" axis = "0 0 -1" />
+					<geom type="sphere" size=".05" rgba=".9 .9 0 1" mass="0.1"/>
+				</body>
+			</body>
+		</body>
+
+	</worldbody>
+
+	<actuator>
+		<position name="position_servo_hip" joint="hip" kp="5"/>
+		<velocity name="velocity_servo_hip" joint="hip" kv="1"/>
+		
+		<position name="position_servo_knee1" joint="knee1" kp="1000"/>
+		<velocity name="velocity_servo_knee1" joint="knee1" kv="100"/>
+		
+		<position name="position_servo_knee2" joint="knee2" kp="1000"/>
+		<velocity name="velocity_servo_knee2" joint="knee2" kv="100"/>
+	</actuator>
+
+
+</mujoco>

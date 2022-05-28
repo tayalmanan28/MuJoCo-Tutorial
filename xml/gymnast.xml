@@ -1,0 +1,37 @@
+<mujoco>
+
+	<option timestep="0.001" integrator="RK4" gravity="0 0 -9.81">
+		<flag sensornoise="disable" contact="enable" energy="enable"/>
+	</option>
+
+	<worldbody>
+    <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+		<geom type="plane" size="5 5 0.1" rgba=".9 0 0 1"/>
+
+		<body pos="0 0 2" euler="0 0 0" name="pole" >
+			<joint name="x" type="slide" pos="0 0 0.5" axis="1 0 0"/>
+			<joint name="z" type="slide" pos="0 0 0.5" axis="0 0 1"/>
+			<joint name="pin" type="hinge" pos="0 0 0.5" axis="0 -1 0"/>
+			<geom type="cylinder" size=".05 .5" rgba="0 .9 0 1" mass="1"/>
+		</body>
+
+		<body pos="0 -1 2" euler="0 0 0" name="pole2" >
+			<joint name="x2" type="slide" pos="0 0 0.5" axis="1 0 0"/>
+			<joint name="z2" type="slide" pos="0 0 0.5" axis="0 0 1"/>
+			<joint name="pin2" type="hinge" pos="0 0 0.5" axis="0 -1 0"/>
+			<geom type="cylinder" size=".05 .5" rgba=".9 .9 .9 1" mass="1"/>
+		</body>
+	</worldbody>
+
+	<equality>
+		<connect body1="pole" body2="world" anchor="0 0 0.5"/>
+	</equality>
+
+	<actuator>
+		<motor name="torque" joint="pin" gear="1" ctrlrange="-100 100" ctrllimited="true"/>
+		<position name="position_servo" joint="pin" kp="0"/>
+		<velocity name="velocity_servo" joint="pin" kv="0"/>
+	</actuator>
+
+
+</mujoco>

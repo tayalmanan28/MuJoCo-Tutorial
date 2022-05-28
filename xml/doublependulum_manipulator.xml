@@ -1,0 +1,33 @@
+<mujoco>
+	<option timestep="0.0001" integrator="RK4" gravity="0 0 0">
+		<flag sensornoise="enable" energy="enable" contact="disable" />
+	</option>
+	<worldbody>
+    <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+		<geom type="plane" size="1 1 0.1" rgba=".9 0 0 1"/>
+		<body pos="0.5 0 1.25" euler="0 90 0">
+			<joint name="pin" type="hinge" axis = "0 -1 0" pos="0 0 -0.5"/>
+			<geom type="cylinder" size="0.05 0.5" rgba="0 .9 0 1" mass="1"/>
+			
+      <body pos="0 0.1 1" euler="0 0 0">
+				<joint name="pin2" type="hinge" axis = "0 -1 0" pos="0 0 -0.5"/>
+				<geom type="cylinder" size="0.05 0.5" rgba="0 0 .9 1" mass="1"/>
+				<site name="endeff" pos="0 0 0.5" size="0.1"/>
+			</body>
+
+		</body>
+	</worldbody>
+
+	<actuator>
+		<position name="pservo1" joint="pin" kp="100" />
+		<velocity name="vservo1" joint="pin" kv="10" />
+
+		<position name="pservo2" joint="pin2" kp="100" />
+		<velocity name="vservo2" joint="pin2" kv="10" />
+	</actuator>
+
+	<sensor>
+		<framepos objtype="site" objname="endeff"/>
+		<framelinvel objtype="site" objname="endeff"/>
+	</sensor>
+</mujoco>

@@ -1,0 +1,19 @@
+<mujoco>
+  <visual>
+   <headlight ambient="0.5 0.5 0.5"/>
+    </visual>
+  <worldbody>
+    <geom type="plane" size="100 1 0.1" rgba=".9 0 0 1"/>
+    <geom type="cylinder" pos="5 0 1" size="0.2 1" rgba=".9 .9 .9 1"/>
+
+    <body pos="0 0 .1">
+      <joint type="free"/>
+      <geom type="sphere" size=".1" rgba="0 .9 0 1" mass="1"/>
+    </body>
+
+    <body pos="5 0 2.1">
+      <joint type="free"/>
+      <geom type="box" size="0.1 0.1 0.1" rgba=".9 .9 0 1" mass="0.1"/>
+    </body>
+  </worldbody>
+</mujoco>

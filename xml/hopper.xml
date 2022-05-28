@@ -1,0 +1,43 @@
+<mujoco>
+	
+	<visual>
+		<headlight ambient="0.5 0.5 0.5"/>
+	</visual>
+
+	<option timestep="0.001" integrator="RK4" gravity="0 0 -9.81">
+		<flag sensornoise="disable" contact="enable" energy="enable"/>
+	</option>
+
+	<worldbody>
+    	<!-- <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/> -->
+		<!-- <light mode="targetbody" target="torso"/> -->
+
+		<geom type="plane" size="100 1 0.1" rgba=".9 0 0 1"/>
+
+		<body pos="0 0 2">
+			<joint name="x" type="slide" pos="0 0 0" axis="1 0 0"/>
+			<joint name="z" type="slide" pos="0 0 0" axis="0 0 1"/>
+			<geom type="sphere" size=".1" rgba=".9 .9 .9 1" mass="1"/>
+			
+			<body name="leg" pos="0 0 -0.5" euler="0 0 0">
+				<joint name="hip" type="hinge" pos="0 0 0.5" axis="0 -1 0" />
+				<geom type="cylinder" size=".05 .5" rgba="0 .9 0 1" mass="1"/>
+
+				<body name="foot" pos="0 0 -0.75">
+					<joint name="knee" type="slide" pos="0 0 0.25" axis="0 0 -1"/>
+					<geom type="cylinder" pos="0 0 0.125" size=".01 .125" rgba="0 0 .9 1" mass="0"/>
+					<geom type="sphere" size=".05" rgba=".9 .9 0 1" mass="0.1"/>
+				</body>
+			</body>
+		</body>
+	</worldbody>
+
+	<actuator>
+		<position name="pservo-hip" joint="hip" kp="0"/>
+		<velocity name="vservo-hip" joint="hip" kv="0"/>
+		<position name="pservo-knee" joint="knee" kp="0"/>
+		<velocity name="vservo-knee" joint="knee" kv="0"/>
+	</actuator>
+
+
+</mujoco>
