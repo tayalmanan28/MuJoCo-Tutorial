@@ -14,7 +14,6 @@ The main purpose of this repo is providing the starter code required to run a Mu
 
 ## MuJoCo Bootcamp Examples
 
-All of the examples in the [MuJoCo Bootcamp](https://pab47.github.io/mujoco.html) are translated into Python. The examples include:
 
 ```[Markdown]
 - Projectile with drag
