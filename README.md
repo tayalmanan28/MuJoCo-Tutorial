@@ -67,6 +67,7 @@ The main purpose of this repo is providing the starter code required to run a Mu
 
 - Fork this repository. You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
 - Follow the above steps for installation 
+- Go to the `examples` folder and go through different mujoco environment examples.
 - Create a valid xml file. The instructions for making an XML File are mentioned [here](https://mujoco.readthedocs.io/en/latest/overview.html?highlight=hello.xml#examples)
 - Then you can use one of the environments as a base to create a mujoco environment for your example and discuss if there are any issues.
 - Once completed, create a pull request, read about submitting a pull request in the DigitalOcean tutorial "[How To Create a Pull Request on GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)".
