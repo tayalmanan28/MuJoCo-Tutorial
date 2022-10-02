@@ -9,11 +9,11 @@ To install Anaconda follow the instructions in this [webpage](https://www.digita
 
 Create a conda environment for MuJoCo setup:  
 ```
-conda create --name mujoco  
+conda create --name mujoco-tut  
 ```
 Switch to the newly create environment (you will notice the name of the environment on the command line in the extreme left):  
 ```
-conda activate mujoco  
+conda activate mujoco-tut  
 ```
 
 Then, clone the repository on your system:
