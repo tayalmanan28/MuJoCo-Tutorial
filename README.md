@@ -1,5 +1,9 @@
 # Mujoco Tutorial
-Tutorial on MuJoCo
+Tutorial on how to get started with MuJoCo simulations.
+
+Currently we are also participating in Hacktober Fest 2022 so if you want to contribute to this repository please follow the contributing instructions given in the contributing Section below
+![image](https://user-images.githubusercontent.com/42448031/193699422-a75d4807-e7ab-456a-9f57-e82195647c3b.png)
+
 
 ## Installation and Getting started:
 
