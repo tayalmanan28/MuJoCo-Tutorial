@@ -67,7 +67,7 @@ The main purpose of this repo is providing the starter code required to run a Mu
 
 ## READMEs in different Languages
 
-español: [Readme](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/Readme_sp.md)
+[español](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README_sp.md)
 
 ## Contributing
 
