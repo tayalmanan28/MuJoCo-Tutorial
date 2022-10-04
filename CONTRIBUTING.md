@@ -1,39 +1,39 @@
-## Step 1 Fork this repository
-You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
+## Paso 1 Bifurque este repositorio
+Puedes hacer un fork de este repositorio haciendo clic en el botón de fork en la esquina superior derecha. Una vez que se bifurca esto creará una copia del repositorio en su cuenta
 
-## Step 2 Clone the repository 
-To clone the repository go to your account open this repo and either click on clone button or run the command below to get this repository on your local machine
+## Paso 2 Clonar el repositorio
+Para clonar el repositorio vaya a su cuenta, abra este repositorio y haga clic en el botón de clonar o ejecute el siguiente comando para obtener este repositorio en su máquina local
 
 > git clone https://github.com/tayalmanan28/Mujoco-Tutorial.git
 
-## Step 3 Create a branch
-On your local machine go the project folder that you cloned and use following git command inside that folder
+## Paso 3 Crear una rama
+En su máquina local vaya a la carpeta del proyecto que clonó y utilice el siguiente comando git dentro de esa carpeta
 
-create a new branch using below command.
+crea una nueva rama usando el siguiente comando.
 
-> git checkout -b \<branch-name\>
+> git checkout -b \<nombre de la rama\>
 
 e.g. `git checkout -b mybranch`
 
-## Step 4 Lets make some contributions
-Make changes to files on your local machine work on the issue you're assigned. 
+## Paso 4 Hagamos algunas contribuciones 😎
+Haz que los cambios en los archivos de tu máquina local funcionen en el tema que se te ha asignado. 
 
-## Step 5 Add Changes and Commit Changes
-Now we have to add changes that we made to the branch so for that we will run following command.
+## Paso 5 Añadir cambios y confirmarlos
+Ahora tenemos que añadir los cambios que hemos hecho a la rama así que para ello ejecutaremos el siguiente comando.
 
 > git add .
 
-Now we have to commit changes, commit message should always be clear, to commit use command below.
+Ahora tenemos que confirmar los cambios, el mensaje de confirmación debe ser siempre claro, para confirmar utilice el comando siguiente.
 
 > git commit -m "message"
 
-## Step 6 Push changes to GitHub
-Now we have to push the changes that we made to remote repository on specified branch to do so use command below.
+## Paso 6 Envíe los cambios a GitHub
+Ahora tenemos que enviar los cambios que hemos hecho al repositorio remoto en la rama especificada.
 
 > git push 
 
 
-## Step 7 Submit your changes for review
-Once you have pushed your code to GitHub, it's now time to create pull request, you will go to the repository click on compare and pull request and submit the pull request.
+## Paso 7 Envíe los cambios para su revisión 🔍
+Una vez que haya enviado su código a GitHub, ahora es el momento de crear una solicitud , usted va a ir al repositorio, haga clic en la comparación y presentar la solicitud.
 
-Soon, we will be merging all your pull requests to the main branch of project and you will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below.
+Pronto, vamos a fusionar todas sus solicitudes a la rama principal del proyecto y también recibirá una notificación una vez que su solicitud de extracción se fusione con el código base existente. Después de eso, podrás ver tus detalles en la sección de colaboradores en la página de abajo.👍

@@ -1,102 +1,104 @@
-# Mujoco Tutorial
-Tutorial on how to get started with MuJoCo simulations.
+# Tutorial de Mujoco 👓
+Tutorial sobre cómo empezar con las simulaciones de MuJoCo.
 
-Currently we are also participating in Hacktober Fest 2022 so if you want to contribute to this repository please follow the contributing instructions given in the contributing Section [below](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing)
+Actualmente estamos participando en el Hacktober Fest 2022 🎃, por lo que si quieres contribuir a este repositorio, sigue las instrucciones dadas en la sección de [contribución](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing) 😉
 ![image](https://user-images.githubusercontent.com/42448031/193699422-a75d4807-e7ab-456a-9f57-e82195647c3b.png)
 
 
-## Installation and Getting started:
+## Instalación y puesta en marcha: 🚀
 
-### Conda Environment Setup
+### Configuración del entorno Conda 🐍
 
-To install Anaconda follow the instructions in this [webpage](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04-quickstart) (Ubuntu 20.04)
+Para instalar Anaconda siga las instrucciones de esta [página web](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04-quickstart) (Ubuntu 20.04)
 
-Create a conda environment for MuJoCo setup:  
+Creé un entorno conda para la configuración de MuJoCo: 
 ```
 conda create --name mujoco-tut  
 ```
-Switch to the newly create environment (you will notice the name of the environment on the command line in the extreme left):  
+Cambie al entorno recién creado (notará el nombre del entorno en la línea de comandos en el extremo izquierdo):
 ```
 conda activate mujoco-tut  
 ```
 
-Then, clone the repository on your system:
+A continuación, clone el repositorio en su sistema:
 ```
 git clone https://github.com/tayalmanan28/Mujoco-Tutorial.git
 ```
-Install the following required packages:
+Instale los siguientes elementos necesarios:
 ```
 pip install -r requirements.txt
 ```
 
-### MuJoCo Installation
+### Instalación de MuJoCo 👨‍💻
 
-For Installing MuJoCo on your system follow the [blog](https://tayalmanan28.github.io/my_blogs/mujoco/simulations/robotics/2022/01/21/MuJoCo.html)
+Para instalar MuJoCo en su sistema, siga el siguiente [blog](https://tayalmanan28.github.io/my_blogs/mujoco/simulations/robotics/2022/01/21/MuJoCo.html)
 
-### Running example
+### Ejemplo de funcionamiento 👉
 
 ``` python3 run.py ```
 
-## Contents
+## Contenido
 
-The main purpose of this repo is providing the starter code required to run a MuJoCo simulation with keyboard and mouse callbacks using its Python bindings. The base class is in `mujoco_base.py`. To create your own MuJoCo simulation, you can create a new class that inherits `mujoco_base.MuJoCoBase`. An example of this usage is provided in `example_projectile.py`, the new class should implement the functions
+El propósito principal de este repositorio es proporcionar el código de inicio necesario para ejecutar una simulación MuJoCo con llamadas de teclado y ratón utilizando sus enlaces de Python. La clase base está en `mujoco_base.py`. 
+Para crear tu propia simulación MuJoCo, puedes crear una nueva clase que herede de `mujoco_base.MuJoCoBase`. Un ejemplo de este uso se proporciona en `example_projectile.py`, la nueva clase debe implementar las siguientes funciones
 
 ```[Python]
-- reset()       # Initializes the enviroment and control callback
-- controller()  # Adds control actions
-- simulate()    # Copy the simulate() function from 
-                # mujoco_base.MuJoCoBase and add your own twist
+- reset()       # Inicializa el entorno y las llamadas de control
+- controller()  # Añade acciones de control
+- simulate()    # Copiar la función simulate() de
+                # mujoco_base.MuJoCoBase y añade tu propio toque
 ```
 
-## MuJoCo Examples
+## Ejemplos de MuJoCo 👉
 
 
 ```[Markdown]
-- Projectile with drag
-- Control a simple pendulum
-- Control a double pendulum
-- Leg swing
+- Proyectil con arrastre
+- Controlar un péndulo simple
+- Controlar un péndulo doble
+- Balanceo de la pierna
 - Manipulator drawing
-- Control an underactuated pendulum
-- Gymnast swing/release on a bar
-- 2D Hopper
-- Initial Value Problem
-- Inverse Kinematics
-- 2D Biped
+- Controlar un péndulo subactuado
+- Columpio de gimnasta/suelta en una barra
+- Tolva 2D
+- Problema del valor inicial
+- Cinemática inversa
+- Bípedo 2D
 ```
 
-## Contributing
+## Contribución 🤝
 
-So you can contribute to this repository in 2 ways: 
-1. By adding new examples of MuJoCo environments
-2. By help in resolving the existing issues
+ Puedes contribuir a este repositorio de dos maneras:
+1. Añadiendo nuevos ejemplos de entornos MuJoCo
+2. Ayudando a resolver los problemas existentes
 
-### For Contributing a new example to this repo:
+### Para contribuir con un nuevo ejemplo a este repo:
 
-- Fork this repository. You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
-- Follow the above steps for installation 
-- Go to the `examples` folder and go through different mujoco environment examples.
-- Create a valid xml file. The instructions for making an XML File are mentioned [here](https://mujoco.readthedocs.io/en/latest/overview.html?highlight=hello.xml#examples)
-- Then you can use one of the environments as a base to create a mujoco environment for your example and discuss if there are any issues.
-- Once completed, create a pull request, read about submitting a pull request in the DigitalOcean tutorial "[How To Create a Pull Request on GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)".
-
-
-### For Contributions directly from Issues:
-
-- Fork this repository. You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
-- Follow the above steps for installation 
-- Based on your experience select an issue from the issues button above and ask for assigning the issue to you. Work on the issue and discuss it if you face any problems.
-- Create a pull request, read about submitting a pull request in the DigitalOcean tutorial "[How To Create a Pull Request on GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)".
-
-Soon, we will review your request and merge your pull requests to the main branch of project if your pull request is valid.  You will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below.
+- Bifurque este repositorio. Puede bifurcar este repositorio haciendo clic en el botón de Fork en la esquina superior derecha. Una vez que se bifurca esto creará una copia del repositorio en su cuenta
+- Siga los pasos anteriores para la instalación 
+- Ve a la carpeta `examples` y revisa los diferentes ejemplos de entornos de mujoco.
+- Cree un archivo xml válido. Las instrucciones para hacer un archivo XML se mencionan [aquí](https://mujoco.readthedocs.io/en/latest/overview.html?highlight=hello.xml#examples)
+- Luego puedes usar uno de los entornos como base para crear un entorno mujoco para tu ejemplo y debatir si hay algún problema.
+- Una vez completado, crea un pull request, lee sobre cómo enviar un pull request en el tutorial de DigitalOcean "
+[Cómo crear un Pull Request en GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)".
 
 
-## LICENSE
+### Para las contribuciones directamente de los Issues:
 
-The code is licenced under the MIT license and free to use by anyone without any restrictions.
+- Bifurque este repositorio. Puede bifurcar este repositorio haciendo clic en el botón de Fork en la esquina superior derecha. Una vez que se bifurca esto creará una copia del repositorio en su cuenta
+- Siga los pasos anteriores para la instalación 
+- Basándose en su experiencia, seleccione un problema del botón de problemas de arriba y pida que se le asigne el problema. Trabaje en el tema y coménte si tiene algún problema.
+- Creé un pull request, lee sobre cómo enviar un pull request en el tutorial de DigitalOcean " [Cómo crear un pull request en GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)".
+
+En breve, revisaremos su solicitud y la fusionaremos con la rama principal del proyecto si su solicitud es válida.  También recibirás una notificación cuando tu pull request se fusione con el código base existente. Después podrá ver sus detalles en la sección de colaboradores en la página de abajo.
+
+
+## LICENCIA 📃
+
+El código está bajo la licencia MIT y puede ser utilizado por cualquiera sin ninguna restricción. 👍
 ***
 
-<p align='center'>Created with :heart: by <a href="https://github.com/tayalmanan28">Manan Tayal</a> and contributed by: <br>
+<p align='center'>Creado con ❤ por <a href="https://github.com/tayalmanan28">Manan Tayal</a> en conjunto con: <br>
 <a href="https://github.com/bchainbuidler">Blockchain Buidler</a>,
 <a href="https://github.com/Guillermo">Guiller</a>
 
