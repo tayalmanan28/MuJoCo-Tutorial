@@ -1,4 +1,4 @@
-#Mujoco Tutorial
+# Mujoco Tutorial
 Tutorial sobre cómo comenzar con las simulaciones de MuJoCo.
 
 Actualmente también estamos participando en Hacktober Fest 2022, por lo que si desea contribuir a este repositorio, siga las instrucciones de contribución que se 
@@ -6,9 +6,9 @@ proporcionan en la Sección de contribución.
 [below](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing)
 ![image](https://user-images.githubusercontent.com/42448031/193699422-a75d4807-e7ab-456a-9f57-e82195647c3b.png)
 
-##Instalación y primeros pasos:
+## Instalación y primeros pasos:
 
-###Configuración del entorno de Conda
+### Configuración del entorno de Conda
 
 Para instalar Anaconda siga las instrucciones en este [webpage](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on
 -ubuntu-20-04-quickstart) (Ubuntu 20.04)
