@@ -100,3 +100,4 @@ The code is licenced under the MIT license and free to use by anyone without any
 <a href="https://github.com/bchainbuidler">Blockchain Buidler</a>,
 <a href="https://github.com/Guillermo">Guiller</a>
 
+Lea este archivo en español: [Readme](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/Readme_sp.md)
