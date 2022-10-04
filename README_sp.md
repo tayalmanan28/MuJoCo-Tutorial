@@ -66,17 +66,15 @@ Para crear tu propia simulación MuJoCo, puedes crear una nueva clase que herede
 - Bípedo 2D
 ```
 
-<<<<<<< feature/R2
-## Contribución 🤝
-=======
+
+
 ## READMEs in different Languages
 
-español: [Readme](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/Readme_sp.md)
+español: [Readme](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README_sp.md)
 
-## Contributing
->>>>>>> main
+## Contribución 🤝
 
- Puedes contribuir a este repositorio de dos maneras:
+Puedes contribuir a este repositorio de dos maneras:
 1. Añadiendo nuevos ejemplos de entornos MuJoCo
 2. Ayudando a resolver los problemas existentes
 
