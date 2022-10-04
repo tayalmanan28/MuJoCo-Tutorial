@@ -65,6 +65,10 @@ The main purpose of this repo is providing the starter code required to run a Mu
 - 2D Biped
 ```
 
+## READMEs in different Languages
+
+[español](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README_sp.md)
+
 ## Contributing 🤝
 
 So you can contribute to this repository in 2 ways: 
