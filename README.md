@@ -65,6 +65,10 @@ The main purpose of this repo is providing the starter code required to run a Mu
 - 2D Biped
 ```
 
+## READMEs in different Languages
+
+español: [Readme](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/Readme_sp.md)
+
 ## Contributing
 
 So you can contribute to this repository in 2 ways: 
@@ -100,4 +104,3 @@ The code is licenced under the MIT license and free to use by anyone without any
 <a href="https://github.com/bchainbuidler">Blockchain Buidler</a>,
 <a href="https://github.com/Guillermo">Guiller</a>
 
-Lea este archivo en español: [Readme](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/Readme_sp.md)
