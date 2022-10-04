@@ -104,7 +104,5 @@ En breve, revisaremos su solicitud y la fusionaremos con la rama principal del p
 El código está bajo la licencia MIT y puede ser utilizado por cualquiera sin ninguna restricción. 👍
 ***
 
-<p align='center'>Creado con ❤ por <a href="https://github.com/tayalmanan28">Manan Tayal</a> en conjunto con: <br>
-<a href="https://github.com/bchainbuidler">Blockchain Buidler</a>,
-<a href="https://github.com/Guillergood">Guiller</a>
+<p align='center'>Creado con ❤ por <a href="https://github.com/tayalmanan28">Manan Tayal</a> y traducido por <a href="[https://github.com/tayalmanan28](https://github.com/ArturoEmmanuelToledoAguado)">Arturo</a>
 
