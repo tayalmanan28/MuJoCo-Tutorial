@@ -100,7 +100,8 @@ Soon, we will review your request and merge your pull requests to the main branc
 The code is licenced under the MIT license and free to use by anyone without any restrictions. 👍
 ***
 
-<p align='center'>Created with ❤ by <a href="https://github.com/tayalmanan28">Manan Tayal</a> and contributed by: <br>
-<a href="https://github.com/bchainbuidler">Blockchain Buidler</a>,
-<a href="https://github.com/Guillermo">Guiller</a>
+## Our Top Contributors 
+<p align="center"><a href="https://github.com/tayalmanan28/MuJoCo-Tutorial/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?tayalmanan28/MuJoCo-Tutorial" />
+</a></p>
 
