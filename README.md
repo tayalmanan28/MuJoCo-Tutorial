@@ -1,13 +1,13 @@
-# Mujoco Tutorial
+# Mujoco Tutorial 👓
 Tutorial on how to get started with MuJoCo simulations.
 
-Currently we are also participating in Hacktober Fest 2022 so if you want to contribute to this repository please follow the contributing instructions given in the contributing Section [below](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing)
+Currently we are also participating in Hacktober Fest 2022 🎃 so if you want to contribute to this repository please follow the contributing instructions given in the contributing Section [below](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing) 😉
 ![image](https://user-images.githubusercontent.com/42448031/193699422-a75d4807-e7ab-456a-9f57-e82195647c3b.png)
 
 
-## Installation and Getting started:
+## Installation and Getting started: 🚀
 
-### Conda Environment Setup
+### Conda Environment Setup 🐍
 
 To install Anaconda follow the instructions in this [webpage](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04-quickstart) (Ubuntu 20.04)
 
@@ -29,11 +29,11 @@ Install the following required packages:
 pip install -r requirements.txt
 ```
 
-### MuJoCo Installation
+### MuJoCo Installation 👨‍💻
 
 For Installing MuJoCo on your system follow the [blog](https://tayalmanan28.github.io/my_blogs/mujoco/simulations/robotics/2022/01/21/MuJoCo.html)
 
-### Running example
+### Running example 👉
 
 ``` python3 run.py ```
 
@@ -48,7 +48,7 @@ The main purpose of this repo is providing the starter code required to run a Mu
                 # mujoco_base.MuJoCoBase and add your own twist
 ```
 
-## MuJoCo Examples
+## MuJoCo Examples 👉
 
 
 ```[Markdown]
@@ -69,7 +69,7 @@ The main purpose of this repo is providing the starter code required to run a Mu
 
 [español](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README_sp.md)
 
-## Contributing
+## Contributing 🤝
 
 So you can contribute to this repository in 2 ways: 
 1. By adding new examples of MuJoCo environments
@@ -95,12 +95,12 @@ So you can contribute to this repository in 2 ways:
 Soon, we will review your request and merge your pull requests to the main branch of project if your pull request is valid.  You will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below.
 
 
-## LICENSE
+## LICENSE 📃
 
-The code is licenced under the MIT license and free to use by anyone without any restrictions.
+The code is licenced under the MIT license and free to use by anyone without any restrictions. 👍
 ***
 
-<p align='center'>Created with :heart: by <a href="https://github.com/tayalmanan28">Manan Tayal</a> and contributed by: <br>
+<p align='center'>Created with ❤ by <a href="https://github.com/tayalmanan28">Manan Tayal</a> and contributed by: <br>
 <a href="https://github.com/bchainbuidler">Blockchain Buidler</a>,
 <a href="https://github.com/Guillermo">Guiller</a>
 
