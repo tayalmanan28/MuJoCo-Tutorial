@@ -102,6 +102,6 @@ The code is licenced under the MIT license and free to use by anyone without any
 
 ## Our Top Contributors 
 <p align="center"><a href="https://github.com/tayalmanan28/MuJoCo-Tutorial/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?tayalmanan28/MuJoCo-Tutorial" />
+  <img src="https://contributors-img.web.app/image?repo=tayalmanan28/MuJoCo-Tutorial" />
 </a></p>
 
