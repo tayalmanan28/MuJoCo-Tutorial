@@ -39,10 +39,6 @@ Install the following required packages:
 pip install -r requirements.txt
 ```
 
-### MuJoCo Installation 👨‍💻
-
-For Installing MuJoCo on your system follow the [blog](https://tayalmanan28.github.io/my_blogs/mujoco/simulations/robotics/2022/01/21/MuJoCo.html)
-
 ### Running example 👉
 
 ``` python3 run.py ```
