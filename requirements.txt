@@ -1,3 +1,4 @@
 mujoco
 gym
 matplotlib
+mediapy
