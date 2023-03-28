@@ -11,8 +11,6 @@
 # Mujoco Tutorial 👓
 Tutorial on how to get started with MuJoCo simulations.
 
-Currently we are also participating in Hacktober Fest 2022 🎃 so if you want to contribute to this repository please follow the contributing instructions given in the contributing Section [below](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing) 😉
-![image](https://user-images.githubusercontent.com/42448031/193699422-a75d4807-e7ab-456a-9f57-e82195647c3b.png)
 
 
 ## Installation and Getting started: 🚀
@@ -37,6 +35,14 @@ git clone https://github.com/tayalmanan28/Mujoco-Tutorial.git
 Install the following required packages:
 ```
 pip install -r requirements.txt
+```
+Jupyter notebook
+```
+conda install nb_conda_kernels  
+```
+rendering ffmpeg
+```
+sudo apt install -y ffmpeg
 ```
 
 ### Running example 👉
@@ -111,3 +117,5 @@ The code is licenced under the MIT license and free to use by anyone without any
   <img src="https://contributors-img.web.app/image?repo=tayalmanan28/MuJoCo-Tutorial" />
 </a></p>
 
+Currently we are also participating in Hacktober Fest 2022 🎃 so if you want to contribute to this repository please follow the contributing instructions given in the contributing Section [below](https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/README.md#contributing) 😉
+![image](https://user-images.githubusercontent.com/42448031/193699422-a75d4807-e7ab-456a-9f57-e82195647c3b.png)
