@@ -83,9 +83,10 @@ The main purpose of this repo is providing the starter code required to run a Mu
 
 ## Contributing 🤝
 
-So you can contribute to this repository in 2 ways: 
+So you can contribute to this repository in 3 ways: 
 1. By adding new examples of MuJoCo environments
 2. By help in resolving the existing issues
+3. Join our community and help the community on the sub Reddit: https://www.reddit.com/r/learningbasedcontrol/s/Yglb23566L
 
 ### For Contributing a new example to this repo:
 
